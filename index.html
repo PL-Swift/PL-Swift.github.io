@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<p>
+  <img src="https://img.shields.io/badge/postgresql-10-yellow.svg" />
+  <img src="https://img.shields.io/badge/swift-3-blue.svg" />
+  <img src="https://img.shields.io/badge/swift-4-blue.svg" />
+  <img src="https://img.shields.io/badge/os-macOS-green.svg?style=flat" />
+  <img src="https://img.shields.io/badge/os-tuxOS-green.svg?style=flat" />
+</p>
+
+<p style="text-align: justify;">
+  <b>PL/Swift</b>
+  allows you to write custom SQL functions and types for the 
+  <a href="https://www.postgresql.org/">PostgreSQL</a>
+  database server in the 
+  <a href="http://swift.org/">Swift</a> programming language.
+</p>
+
+<h3>WORK IN PROGRESS, STAY TUNED</h3>
+<p style="text-align: justify;">
+  PL/Swift is still being prepared. Please stay tuned for the release.
+  If you want to stay up to date, subscribe to the
+  <a href="/blog/">PL/Swift Blog</a>
+</p>
+
+<!--
+<p style="text-align: justify;">
+  PL/Swift documentation can be found here:
+  <a href="http://docs-plswift.github.io/">docs-plswift.github.io</a>.
+</p>
+-->
+
+<hr />
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+      
+      <div class="date">
+        <table border="0" width="100%"> <!-- old skool -->
+          <tr>
+            <td>{{ post.date | date: "%B %e, %Y" }}</td>
+            <td style="text-align:right;"><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a></td>
+          </tr>
+        </table>
+      </div>
+    </article>
+  {% endfor %}
+</div>
