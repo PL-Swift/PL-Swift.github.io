@@ -76,3 +76,6 @@ helge=# SELECT plcows_vaca();
 
 PL/Swift documentation can be found here:
 [pl-swift.github.io/docs/](https://pl-swift.github.io/docs/).
+
+A small tutorial can be found over here:
+[PL/Swift - PostgreSQL Functions in Swift](http://www.alwaysrightinstitute.com/plswift/).
