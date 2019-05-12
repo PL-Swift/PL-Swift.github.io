@@ -8,6 +8,7 @@ tags: postgresql swift server side
   <img src="https://img.shields.io/badge/postgresql-10-yellow.svg" />
   <img src="https://img.shields.io/badge/swift-3-blue.svg" />
   <img src="https://img.shields.io/badge/swift-4-blue.svg" />
+  <img src="https://img.shields.io/badge/swift-5-blue.svg" />
   <img src="https://img.shields.io/badge/os-macOS-green.svg?style=flat" />
   <img src="https://img.shields.io/badge/os-tuxOS-green.svg?style=flat" />
 </p>
